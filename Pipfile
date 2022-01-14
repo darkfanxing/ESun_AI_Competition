@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow-gpu = "==2.4.0"
+sklearn = "*"
+deepctr = "*"
+pandas = "*"
+tqdm = "*"
+cupy-cuda112 = "*"
+matplotlib = "*"
+seaborn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
